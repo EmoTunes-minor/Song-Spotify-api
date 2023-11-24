@@ -8,8 +8,8 @@ import random
 
 from moodtape_functions import authenticate_spotify, aggregate_top_artists, aggregate_top_tracks, select_tracks, create_playlist
 
-client_id = "04908a2d370f4c0b8d03ee4b1215a769"
-client_secret = "5725e0d189864e4a9e6ab8d1e78b8a08"
+client_id = "blank"
+client_secret = "blank"
 redirect_uri = "https://localhost:3000"
 
 scope = 'user-library-read user-top-read playlist-modify-public user-follow-read'
